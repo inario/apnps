@@ -10,6 +10,11 @@ app.get('/mensagem',function(req,res){
 
 })
 
+app.get('/sobre',function(req,res){
+    res.send("Esta página está sendo desenvolvida por Inácio!")
+
+})
+
 app.listen(3000,function(){
     console.log("Conexão Inicializada na porta 3000")
 })
