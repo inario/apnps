@@ -10,6 +10,11 @@ app.get('/mensagem',function(req,res){
 
 })
 
+app.get('/layout',function(req,res){
+    res.send("Esse é o novo layout!")
+
+})
+
 app.listen(3000,function(){
     console.log("Conexão Inicializada na porta 3000")
 })
